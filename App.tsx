@@ -2,13 +2,10 @@ import * as React from "react";
 import {
   Vibration,
   StatusBar,
-  Easing,
-  FlatList,
   TextInput,
   Animated,
   Dimensions,
   TouchableOpacity,
-  Text,
   View,
   StyleSheet,
 } from "react-native";
