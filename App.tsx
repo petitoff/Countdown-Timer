@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useCallback } from "react";
 import {
   Vibration,
   StatusBar,
@@ -42,7 +43,7 @@ export default function App() {
     };
   });
 
-  const animations = React.useCallback(() => {
+  const animations = useCallback(() => {
     animateTextInput.setValue(duration);
     Animated.sequence([
       Animated.timing(animateButton, {
